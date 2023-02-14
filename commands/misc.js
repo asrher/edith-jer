@@ -52,7 +52,7 @@ async(Void, citel, text,{ isCreator }) => {
         var author;
         if (text) {
             anu = text.split("|");
-            pack = anu[0] !== "" ? anu[0] : citel.pushName + 'bot';
+            pack = anu[0] !== "" ? anu[0] : citel.pushName + '𝙴𝙳𝙸𝚃𝙷 ᪘';
             author = anu[1] !== "" ? anu[1] : Config.author;
         } else {
             pack = citel.pushName;
